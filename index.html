@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant Web Prototype</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>Saylor.Eats</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#order">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+<div class="container">
+	<form action="http://www.google.com/search" method="get" id="search-form">
+		<input type="text" placeholder="search here..." name="s" id="search-box">
+		<label for="search-box" class="fas fa-search"></label>
+		<i class="fas fa-times" id="close"></i>
+	</form>
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>pizza</h3>
+                    <p>Thin and crispy pizza base topped with mozeralla, red onion, mushrooms, salami, olives and fresh basil</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/Pizza.png" alt=""width="400px" 
+     height="500px" />
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>Roasted Red Pepper And Butternut Soup</h3>
+                    <p>Spiced butternut and red peppers roasted to perfection then blended with aromatic broth.Topped
+                    with greek yogurt and served with fresh bread</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/Soup.png" alt=""width="400" 
+     height="500" />>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>Beef Pot Pie</h3>
+                    <p>Flavourful beef stew topped with golden and crispy pasty blanket</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/Pie.png" alt=""width="420" 
+     height="520">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Classics </h3>
+    <h1 class="heading"> Recommonded Dishes </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Alfredo.png" alt="Alfredo pasta">
+            <h3>Alfredo</h3>
+            <span>R160.65</span>
+        </div>
+
+        <div class="box">
+            <img src="images/Chicken and Waffles.png" alt="">
+            <h3>Chicken and Waffles</h3>
+            <span>R250.00</span>
+        </div>
+
+        <div class="box">
+            <img src="images/Chicken.png" alt="">
+            <h3>Grilled Chicken</h3>
+            <span>R170.50</span>
+        </div>
+
+        <div class="box">
+            <img src="images/CrumbledBoard.png" alt="">
+            <h3>Assorted board</h3>
+            <span>R190.75</span>
+        </div>
+
+        <div class="box">
+            <img src="images/Meatballs.png" alt="">
+            <h3>Meat balls and pasta</h3>
+            <span>R130.35</span>
+        </div>
+
+        <div class="box">
+            <img src="images/Pita.png" alt="">
+            <h3>Pita Wrap </h3>
+            <span>R175.50</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- dishes section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/Pita.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>best food in the country</h3>
+            <p>The food we sell taste great!
+			the question is are you eating
+			something great right now?...</p>
+            <p>By any chance visit our website
+			to order our best dishes as we are
+			the best in the country.YUMMY!!!!</p>
+            
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> Decadent Desserts </h3>
+    <h1 class="heading"> Baked daily </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/FrenchToast.png" alt="">
+            </div>
+            <div class="content">
+                <h3>French Toast Stuffing</h3>
+                <p>Four layers maple syrup, whipped cream,peanut
+				butter and strawberry Yogurt.</p>
+                <span class="price">R150.85</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/PanCakes.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Pancakes</h3>
+                <p>Eggs, Milk, butter and
+				addition of strawberry.</p>
+                <span class="price">R89.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/CinnaRolls.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Caramelized Cinnamon Rolls</h3>
+                <p>Honey and additional of
+				eggs: secret cream cheese.</p>
+                <span class="price">R150.89</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/ChocolateCake.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Chocolate cake.</h3>
+                <p>400g cake with: Melted chocolate,
+				cocoa powder, secret butter cream .</p>
+                <span class="price">R385.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/CaramelTart.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Caramel Tart</h3>
+                <p>450g caramel tart: Filled 
+				with cream and drizzled with chocolate.</p>
+                <span class="price">R90.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/LavaCake.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Lava Cake</h3>
+                <p>Compination of a souffle,
+				liquid chocolate center, egg
+				and butter.</p>
+                <span class="price">R550.90</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Malva.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Malva Pudding</h3>
+                <p>Milk, apricot jam,
+				balsamic vinegar and
+				a delicious caramel sauce.</p>
+                <span class="price">R120.35</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/CheeseCake.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Cheese Cake</h3>
+                <p>secret cream cheese,
+				eggs, additional of milk.</p>
+                <span class="price">R290.85</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/CarrotCake.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Carrot cake</h3>
+                <p>Carrot mixed with butter,
+				white cream cheee frosting,
+				chocolate flavour and
+				cinnamon.</p>
+                <span class="price">R500.00</span>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+<p>Unicode:</p>
+<section class="Order" id="Order">
+<i style="font-size:18px" class="process.php"</i>
+ <hr> 
+     <form action="process.php" method="GET">
+      <h2>Personal data:</h2>
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" value="" maxlength="20"><br>  
+        <label for="lname">Surname:</label><br>
+        <input type="text" id="lname" name="lname" value="" maxlength="25"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" size=30>
+     <hr>  
+
+      <h2>Offer:</h2>
+      <label for="food">Choose a dish: </label>
+      <select name="food" id="food">
+		<option value="select">Select</option>
+        <option value="pizza">Pizza</option>
+        <option value="alfredo">Alfredo</option>
+        <option value="chicken and waffles">Chicken and Waffles</option>
+        <option value="grilled chicken">Grilled Chicken</option>
+		<option value="caramel tart">Caramel Tart</option>
+		<option value="assorted board">Assorted Board</option>
+		<option value="meat balls and pasta">Meat Balls And Pasta</option>
+		<option value="pita wrap">Pita Wrap</option>
+		<option value="french toast stuffing">French Toast Stuffing</option>
+		<option value="pancakes">Pancakes</option>
+		<option value="caramelized cinnamon rolls">Caramelized Cinnamon Rolls</option>
+		<option value="chocolate cake">Chocolate Cake</option>
+		<option value="lava cake">Lava Cake</option>
+		<option value="cheese cake">Cheese Cake</option>
+		<option value="carrot cake">Carrot Cake</option>
+		<option value="malva pudding">Malva Pudding</option>
+		<option value="beef pot pie">Beef Pot Pie</option>
+		<option value="roasted red pepper and butternut soup">Roasted Red Pepper And Butternut Soup</option>
+      </select>
+      <br>
+      <br>
+
+      <label for="drinks">Choose a drink: </label>
+      <select name="drink" id="drinks">
+		<option value="select">Select</option>
+        <option value="water">Water</option>
+        <option value="coke" selected="selected">Coca-cola</option>
+        <option value="coffee">Coffee</option>
+		<option value="mocktails">Mocktails</option>
+		<option value="milkshakes">Milkhakes</option>
+		<option value="smoothie">Smoothie</option>
+		<option value="cocoa">Cocoa</option>
+		<option value="tonic water">Tonic water</option>
+		<option value="beer">Beer</option>
+		<option value="red wine">Red Wine</option>
+      </select>
+      <br>
+
+      <p>Side dish:<br> 
+        <input type="checkbox" name="lettuce" id="lettuce"/>
+        <label for="lettuce">Lettuce </label>
+        <input type="checkbox" name="cucumbers"  id="cucumbers"/>
+        <label for="cucumbers">Cucumbers</label>
+        <input type="checkbox" name="ketchup"  id="ketchup" /> 
+        <label for="ketchup"> Ketchup</label>
+        <input type="checkbox" name="mayonnaise"  id="mayonnaise" checked="checked" /> 
+        <label for="mayonnaise"> Mayonnaise</label>
+      </p>
+
+      
+      <label for="quantity">Quantity (between 1 and 20):</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="20" value="1">
+
+      <br>
+      <p>Method of payment:<br>
+        <input type="radio" name="paying" value="visa" id="visa" checked="checked" /> <label for="visa">Visa</label>
+        <input type="radio" name="paying" value="mastercard" id="mastercard" /> <label for="visa">MasterCard</label>
+        <input type="radio" name="paying" value="cash" id="cash" /> <label for="visa">Cash</label>
+      </p>
+        
+      <label for="date">Order date:</label>
+      <input type="date" id="date" name="date"><br>
+      <br>
+
+      <label>Additional order information:<br>
+      <textarea name="message" rows="6" cols="30">You can provide additional information here!
+      </textarea>
+      </label>
+      
+      <p><b>Note:</b><i>10% discount on cash payments!</i> One contribution for free <i></i></p>
+      <hr>
+	</form>  
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">South Africa</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">order</a>
+        </div>
+		<i style="font-size:12px" class="box-container"</i>
+		<div class="box-container">
+		
+		 <div class="box">
+            <h3>contact info</h3>
+        </div>
+		<section>
+			<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+			<h2>facebook</h2>
+			<a href="https://www.facebook.com/profile.php?id=100085552098236" target="_blank">Facebook!</a>
+			
+		</section>
+
+		<section>
+			<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+			<h2>instagram</h2>
+			<a href="https://www.Saylor.eats.com/" target="_blank">Saylor.eats</a>
+				
+		</section>
+			
+		<section>
+			<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+			<h2>Email</h2>
+			<a href="https://www.mailto:Sayloreats@gmail.com/" target="_blank">Sayloreats@gmailaylor!</a>
+		
+		</section>	
+		</div>
+		
+
+    </div>
+	
+
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<div class="loader-container">
+    <img src="images/better.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
